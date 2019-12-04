@@ -1,11 +1,26 @@
 #left-eye {
-  animation: shifty-difty 3s linear infinite;
+  animation: wiggle 1s linear;
 }
 
 #right-eye {
-  animation: shifty-difty 3s linear infinite;
+  animation: wiggle 1s linear;
 }
 
+@keyframes wiggle {
+
+  0% {
+      transform: translate(5px);
+  }
+
+  50% {
+      transform: translate(-5px);
+  }
+
+  100% {
+      transform: translate(5px);
+  }
+
+}
 .left-ear {
 
 }
