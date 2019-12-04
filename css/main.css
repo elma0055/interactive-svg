@@ -21,10 +21,12 @@
   }
 
 }
-.left-ear {
 
+#left-ear,
+#right-ear {
+  transition: all .5s ease-in;
 }
 
-.right-ear {
+ {
 
 }
