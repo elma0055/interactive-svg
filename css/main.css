@@ -29,5 +29,5 @@
 
 #bear:hover #left-ear,
 #bear:hover #right-ear {
-  transform: translateY(-15);
+  transform: translateY(-15px);
 }
