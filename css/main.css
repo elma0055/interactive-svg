@@ -9,15 +9,15 @@
 @keyframes wiggle {
 
   0% {
-      transform: translate(5px);
+    transform: translate(5px);
   }
 
   50% {
-      transform: translate(-5px);
+    transform: translate(-5px);
   }
 
   100% {
-      transform: translate(5px);
+    transform: translate(5px);
   }
 
 }
